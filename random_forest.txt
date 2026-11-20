@@ -1,0 +1,87 @@
+Random Forest Model.
+
+Model Accuracy:  0.8945
+Model Precision:  0.8983
+Model Recall:  0.8945
+Model F1-Score:  0.8824
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.52      0.67       818
+           1       0.89      0.99      0.94      3182
+
+    accuracy                           0.89      4000
+   macro avg       0.91      0.76      0.80      4000
+weighted avg       0.90      0.89      0.88      4000
+
+Confusion Matrix:
+[[ 427  391]
+ [  31 3151]]
+
+Feature Importances:
+                            Feature  Importance
+27     employment_status_Unemployed    0.264957
+3              debt_to_income_ratio    0.090207
+4                      credit_score    0.072714
+6                     interest_rate    0.047340
+26        employment_status_Student    0.044526
+8                       installment    0.039704
+5                       loan_amount    0.038942
+10               total_credit_limit    0.038641
+11                  current_balance    0.038633
+1                     annual_income    0.038150
+2                    monthly_income    0.038136
+0                               age    0.035794
+9              num_of_open_accounts    0.024941
+14             num_of_delinquencies    0.018755
+12              delinquency_history    0.018566
+24        employment_status_Retired    0.008147
+15                      gender_Male    0.007169
+18            marital_status_Single    0.006491
+29  loan_purpose_Debt consolidation    0.006390
+7                         loan_term    0.006283
+17           marital_status_Married    0.006270
+20      education_level_High School    0.006016
+21         education_level_Master's    0.005639
+25  employment_status_Self-employed    0.005490
+28                 loan_purpose_Car    0.004848
+33               loan_purpose_Other    0.004464
+30           loan_purpose_Education    0.004234
+22            education_level_Other    0.004023
+31                loan_purpose_Home    0.003998
+13                   public_records    0.003666
+51                grade_subgrade_D3    0.003390
+52                grade_subgrade_D4    0.003032
+50                grade_subgrade_D2    0.002992
+46                grade_subgrade_C3    0.002967
+53                grade_subgrade_D5    0.002967
+32             loan_purpose_Medical    0.002913
+49                grade_subgrade_D1    0.002739
+45                grade_subgrade_C2    0.002696
+44                grade_subgrade_C1    0.002617
+48                grade_subgrade_C5    0.002509
+47                grade_subgrade_C4    0.002383
+59                grade_subgrade_F1    0.002344
+23              education_level_PhD    0.002327
+57                grade_subgrade_E4    0.002224
+19           marital_status_Widowed    0.002191
+62                grade_subgrade_F4    0.002015
+16                     gender_Other    0.002012
+40                grade_subgrade_B2    0.001744
+34            loan_purpose_Vacation    0.001731
+61                grade_subgrade_F3    0.001699
+42                grade_subgrade_B4    0.001665
+56                grade_subgrade_E3    0.001657
+55                grade_subgrade_E2    0.001615
+41                grade_subgrade_B3    0.001566
+58                grade_subgrade_E5    0.001565
+43                grade_subgrade_B5    0.001525
+39                grade_subgrade_B1    0.001495
+60                grade_subgrade_F2    0.001429
+63                grade_subgrade_F5    0.001420
+54                grade_subgrade_E1    0.001314
+35                grade_subgrade_A2    0.000763
+37                grade_subgrade_A4    0.000510
+38                grade_subgrade_A5    0.000495
+36                grade_subgrade_A3    0.000359

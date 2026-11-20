@@ -1,0 +1,87 @@
+Decision Tree Model.
+
+Model Accuracy:  0.8972
+Model Precision:  0.9031
+Model Recall:  0.8972
+Model F1-Score:  0.8851
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.52      0.68       818
+           1       0.89      0.99      0.94      3182
+
+    accuracy                           0.90      4000
+   macro avg       0.92      0.76      0.81      4000
+weighted avg       0.90      0.90      0.89      4000
+
+Confusion Matrix:
+[[ 428  390]
+ [  21 3161]]
+
+Feature Importances:
+                            Feature  Importance
+27     employment_status_Unemployed    0.574445
+3              debt_to_income_ratio    0.168886
+4                      credit_score    0.140053
+26        employment_status_Student    0.108008
+24        employment_status_Retired    0.006443
+0                               age    0.001412
+39                grade_subgrade_B1    0.000752
+2                    monthly_income    0.000000
+8                       installment    0.000000
+9              num_of_open_accounts    0.000000
+10               total_credit_limit    0.000000
+11                  current_balance    0.000000
+12              delinquency_history    0.000000
+5                       loan_amount    0.000000
+6                     interest_rate    0.000000
+1                     annual_income    0.000000
+15                      gender_Male    0.000000
+14             num_of_delinquencies    0.000000
+13                   public_records    0.000000
+16                     gender_Other    0.000000
+20      education_level_High School    0.000000
+17           marital_status_Married    0.000000
+18            marital_status_Single    0.000000
+19           marital_status_Widowed    0.000000
+23              education_level_PhD    0.000000
+22            education_level_Other    0.000000
+21         education_level_Master's    0.000000
+25  employment_status_Self-employed    0.000000
+28                 loan_purpose_Car    0.000000
+29  loan_purpose_Debt consolidation    0.000000
+30           loan_purpose_Education    0.000000
+7                         loan_term    0.000000
+31                loan_purpose_Home    0.000000
+32             loan_purpose_Medical    0.000000
+34            loan_purpose_Vacation    0.000000
+33               loan_purpose_Other    0.000000
+35                grade_subgrade_A2    0.000000
+36                grade_subgrade_A3    0.000000
+37                grade_subgrade_A4    0.000000
+38                grade_subgrade_A5    0.000000
+40                grade_subgrade_B2    0.000000
+41                grade_subgrade_B3    0.000000
+42                grade_subgrade_B4    0.000000
+43                grade_subgrade_B5    0.000000
+44                grade_subgrade_C1    0.000000
+45                grade_subgrade_C2    0.000000
+46                grade_subgrade_C3    0.000000
+47                grade_subgrade_C4    0.000000
+48                grade_subgrade_C5    0.000000
+49                grade_subgrade_D1    0.000000
+50                grade_subgrade_D2    0.000000
+51                grade_subgrade_D3    0.000000
+52                grade_subgrade_D4    0.000000
+53                grade_subgrade_D5    0.000000
+54                grade_subgrade_E1    0.000000
+55                grade_subgrade_E2    0.000000
+56                grade_subgrade_E3    0.000000
+57                grade_subgrade_E4    0.000000
+58                grade_subgrade_E5    0.000000
+59                grade_subgrade_F1    0.000000
+60                grade_subgrade_F2    0.000000
+61                grade_subgrade_F3    0.000000
+62                grade_subgrade_F4    0.000000
+63                grade_subgrade_F5    0.000000
